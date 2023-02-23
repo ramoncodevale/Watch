@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=MuseoModerno:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "MuseoModerno", cursive;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --text-color: #000000;
+  --bg-color: #e5e5e5;
+  --main-color: #f29494;
+  --second-color: #fff;
+  --big-font: 5.5rem;
+  --p-font: 1rem;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px 9%;
+  transition: all ease 0.55s;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.logo i {
+  vertical-align: middle;
+  color: var(--main-color);
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.navlist {
+  display: flex;
+}
+
+.navlist a {
+  font-size: var(--p-font);
+  color: var(--text-color);
+  font-weight: 600;
+  margin: 0 35px;
+  transition: all ease 0.55s;
+}
+
+.navlist a:hover {
+  color: var(--main-color);
+}
+
+.navlist a.active {
+    color: var(--main-color);
+  }
+
+.h-main {
+    
+}
