@@ -6,6 +6,7 @@ darkmode.onclick = () => {
         document.body.classList.add('color');
     }else{
         darkmode.classList.replace('bx-sun', 'bx-moon');
-        document.body.classList.remove('color')
+        document.body.classList.remove('color');
     }
+
 }
