@@ -220,7 +220,7 @@ section {
   transform: translateY(5px);
 }
 
-body.color {
+body .color {
   --text-color: #fff;
   --bg-color: #08162a;
   --second-color: #2b3544;
@@ -342,6 +342,5 @@ body.color {
 
   #menu-icon {
    margin-right: 5px;
-   
   }
 }
